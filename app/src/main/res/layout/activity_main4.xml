@@ -120,14 +120,15 @@
         android:id="@+id/subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What to cook?"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:textColor="#000000"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/recipeRow"
+        android:text="What to cook?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/recipeRow" />
 
     <GridLayout
         android:id="@+id/categoryGrid"
@@ -341,5 +342,37 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </GridLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="658dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/paper"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="658dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/human"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="658dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/heart"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="658dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
