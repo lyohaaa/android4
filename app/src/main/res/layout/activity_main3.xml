@@ -24,7 +24,6 @@
         android:layout_height="60dp"
         android:layout_marginBottom="184dp"
         android:background="@drawable/button_border2"
-        android:backgroundTint="#CECECE"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:paddingLeft="15dp"
