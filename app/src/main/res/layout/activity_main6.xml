@@ -109,7 +109,7 @@
         android:id="@+id/textView28"
         android:layout_width="80dp"
         android:layout_height="40dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:background="#FFB800"
         android:backgroundTint="#FFB800"
         android:gravity="center"
@@ -232,4 +232,5 @@
         app:srcCompat="@drawable/yellow_heart"
         tools:layout_editor_absoluteX="371dp"
         tools:layout_editor_absoluteY="520dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,6 +13,7 @@
         android:layout_height="45dp"
         android:backgroundTint="#FFB800"
         android:text="CONTINUE"
+        android:onClick="Navigate2"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
