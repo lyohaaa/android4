@@ -20,16 +20,19 @@
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="351dp"
         android:layout_height="211dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
         app:srcCompat="@drawable/margarita2"
-        tools:layout_editor_absoluteY="76dp" />
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textView24"
@@ -43,18 +46,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView26"
         android:layout_width="125dp"
         android:layout_height="37dp"
+        android:layout_marginTop="27dp"
         android:text="Ingredients"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="486dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView25"
@@ -66,49 +74,65 @@
         android:text="Pizza &quot;Margarita&quot; is probably the most popular pizza in the world, in this video I decided to share a classic recipe for this pizza. Previously, I laid out a recipe for making dough and sauce for pizza for those who want to cook pizza with their own filling. All ingredients are listed for two 30 cm diameter pizzas."
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="381dp"
         android:layout_height="107dp"
+        android:layout_marginTop="21dp"
         android:text="Wheat flour / Flour - 250 g\nYeast (fresh) - 3 g\nWater (cold) - 130 ml\nOlive oil (30 ml. In dough and 25 ml. In sauce) - 55 ml\nSalt (1 tsp in the dough and 1 tsp in the sauce) - 2 tsp "
         android:textColor="#000000"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="540dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
         app:srcCompat="@drawable/yellow"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="667dp" />
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView18"
         android:layout_width="32dp"
         android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
         app:srcCompat="@drawable/heart"
-        tools:layout_editor_absoluteX="332dp"
-        tools:layout_editor_absoluteY="667dp" />
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="32dp"
         android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="54dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
         app:srcCompat="@drawable/human"
-        tools:layout_editor_absoluteX="245dp"
-        tools:layout_editor_absoluteY="667dp" />
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
         app:srcCompat="@drawable/hpuse"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="667dp" />
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -118,6 +142,7 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/share" />
+        app:srcCompat="@drawable/share"
+        tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
