@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity4">
 
     <TextView
         android:id="@+id/textView22"
@@ -365,26 +365,22 @@
         app:layout_constraintTop_toBottomOf="@+id/recipeRow"
         tools:ignore="HardcodedText" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="409dp"
-        android:layout_height="78dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@id/bottomNavigationView"
+            android:id="@+id/bottomNavigationView1"
+            app:labelVisibilityMode="unlabeled"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
+            app:itemRippleColor="#0000 "
             app:layout_constraintBottom_toBottomOf = "parent"
             app:layout_constraintEnd_toEndOf = "parent"
             app:layout_constraintStart_toStartOf = "parent"
             app:menu="@menu/bottom_menu"/>
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <FrameLayout
+        android:id="@+id/fl1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="@+id/categoryGrid"

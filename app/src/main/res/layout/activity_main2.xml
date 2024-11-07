@@ -43,7 +43,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/border_button"
-        android:drawableLeft="@drawable/Apple"
+        android:drawableLeft="@drawable/apple"
         android:paddingLeft="17dp"
         android:text="CONTINUE WITH APPLE"
         app:layout_constraintEnd_toEndOf="parent"
