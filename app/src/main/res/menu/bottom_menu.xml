@@ -11,6 +11,7 @@
     <item android:title="Profile"
         android:id="@+id/profile_menu"
         android:icon="@drawable/human"/>
+
     <item android:title="Favorites"
         android:id="@+id/favorites_menu"
         android:icon="@drawable/heart"/>

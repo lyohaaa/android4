@@ -7,51 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity6">
 
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="664dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hpuse"
-        tools:ignore="ContentDescription" />
-
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="664dp"
-        android:layout_marginEnd="148dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/human"
-        tools:ignore="ContentDescription" />
-
-    <ImageView
-        android:id="@+id/imageView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView21"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toEndOf="@+id/imageView16"
-        app:srcCompat="@drawable/yellow"
-        tools:ignore="ContentDescription" />
-
-    <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="664dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView21"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/heart"
-        tools:ignore="ContentDescription" />
-
     <TextView
         android:id="@+id/textView39"
         android:layout_width="wrap_content"
@@ -283,5 +238,26 @@
         app:layout_constraintTop_toBottomOf="@+id/textView40"
         app:srcCompat="@drawable/yellow_heart"
         tools:ignore="ContentDescription" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:itemRippleColor="#0000 "
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_menu" />
+
+    <FrameLayout
+        android:id="@+id/fl3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btv3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
