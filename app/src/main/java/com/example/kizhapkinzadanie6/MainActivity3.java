@@ -24,8 +24,7 @@ public class MainActivity3 extends AppCompatActivity {
             return insets;
         });
     }
-
-    public void Navigate2(View v2) {
+    public void Navigate2(View v) {
         Toast.makeText(MainActivity3.this, "Переход", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(MainActivity3.this, MainActivity4.class);
         startActivity(intent);
